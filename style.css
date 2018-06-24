@@ -1,0 +1,74 @@
+body{
+	background-color: rgba(128, 128, 128, 0.2)
+}
+.wrapper{
+	width: 900px;
+	margin: 40px  auto;
+	background-color: #fff;
+	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+	
+
+
+}
+.baner{
+
+	background-image: url("https://www.bmw.ro/content/dam/bmw/common/all-models/m-series/m3-sedan/2017/images-and-videos/images/BMW-m3-sedan-images-and-videos-img-890x501-03.jpg/_jcr_content/renditions/cq5dam.resized.img.890.medium.time1510607502819.jpg");
+	width: 900px;
+	height: 300px;
+	opacity: 0.9;
+	background-size: cover;
+    background-position: center;
+}
+
+nav{
+	background-color: #000;
+    
+}
+
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+nav a:hover{
+	background-color: blue;
+}
+.content{
+	width: 70%;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+
+}
+.sidebar{
+	width: 30%;
+	display: inline-block;
+}
+.clear{
+	clear: both;
+    display: block;
+}
+article{
+	width: calc(33.333% - 10px);
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #8e7979;
+    float: left;
+    margin: 5px; 
+}
+article:hover{
+	background-color: #d2b391;
+}
+article img{
+	width: 100%;
+}
+footer{
+	background-color: yellow;
+	padding:10px;
+	box-sizing: border-box;
+	text-align: center;
+}
